@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
+  "version": "1.0.0",
+  "manifestVersion": "1.17",
+  "id": "422ad6d8-36b6-4a19-91b1-ead120b1c130",
+  "name": {
+    "short": "Test File Download",
+    "full": "This is a sample app for testing download"
+  },
+  "developer": {
+    "name": "Contoso, Inc.",
+    "mpnId": "",
+    "websiteUrl": "https://example.com",
+    "privacyUrl": "https://example.com/policy",
+    "termsOfUseUrl": "https://example.com/tou"
+  },
+  "description": {
+    "short": "A sample app for testing download",
+    "full": "A sample app for testing download"
+  },
+  "icons": { "outline": "outline.png", "color": "color.png" },
+  "accentColor": "#FFFFFF",
+  "validDomains": ["*.ngrok.com"],
+  "devicePermissions": ["openExternal"]
+}
