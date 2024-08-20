@@ -1,0 +1,12 @@
+{
+  "name": "test-app-for-teams",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server ./src -P 9090 --cors",
+    "startServer": "node ./server.js"
+  },
+  "devDependencies": {
+    "cookie-parser": "^1.4.6",
+    "http-server": "^14.1.1"
+  }
+}
