@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifestVersion": "1.17",
   "id": "422ad6d8-36b6-4a19-91b1-ead120b1c130",
   "name": {
@@ -14,12 +14,20 @@
     "privacyUrl": "https://example.com/policy",
     "termsOfUseUrl": "https://example.com/tou"
   },
+  "staticTabs": [
+    {
+      "entityId": "home",
+      "name": "Home",
+      "scopes": ["personal"],
+      "contentUrl": "https://4dd1-202-163-1-218.ngrok-free.app/"
+    }
+  ],
   "description": {
     "short": "A sample app for testing download",
     "full": "A sample app for testing download"
   },
   "icons": { "outline": "outline.png", "color": "color.png" },
   "accentColor": "#FFFFFF",
-  "validDomains": ["*.ngrok.com"],
+  "validDomains": ["*.ngrok.com", "*.ngrok-free.app"],
   "devicePermissions": ["openExternal"]
 }
