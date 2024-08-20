@@ -19,7 +19,7 @@
       "entityId": "home",
       "name": "Home",
       "scopes": ["personal"],
-      "contentUrl": "https://4dd1-202-163-1-218.ngrok-free.app/"
+      "contentUrl": "<your-url>"
     }
   ],
   "description": {
